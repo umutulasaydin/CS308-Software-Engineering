@@ -1,0 +1,125 @@
+.card {
+  padding: 20px;
+  height: flex;
+  margin: 20px;
+  border-bottom: 1px solid black;
+  border: 6px solid black;
+  border-radius: 8px;
+
+  .prod_items {
+    display: flex;
+    justify-content: center;
+  }
+
+  .prod_desc {
+    justify-content: center;
+    border: 1px solid black;
+    padding: 0 20px 20px 20px;
+    background-color: rgb(224, 224, 224);
+  }
+
+  .btn {
+    height: 50px;
+  }
+}
+
+
+.product {
+
+  width: fit-content;
+  text-align: center;
+  justify-content: space-between;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  height: flex;
+  margin: 20px 20px 20px 0;
+  padding: 20px;
+
+
+
+
+}
+
+.comment {
+  height: flex;
+
+  .txtArea {
+    width: 60%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+  .commentInput {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn {
+    margin: 20px;
+  }
+
+}
+
+.product-image-1 {
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
+}
+
+.bigbox{
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin: 10px;
+}
+.profile-info{
+  display: flex;
+  background-color: #e2e2e2;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin: 10px;
+
+}
+  .addres-info{
+  display: inline-block;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin: 10px;
+  width: 500px;
+  height: 200px;
+  background-color: rgb(169, 169, 169);
+}
+.wishlist-info{
+  display: inline-block;
+  justify-content: center;
+  border: 1px solid black;
+  text-decoration:none;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin: 10px;
+  width: 180px;
+  height: 50px;
+  background-color: rgb(169, 169, 169);
+}
+
+.profie-ul {
+  display: flex;
+  list-style: none;
+  margin-top: 0px;
+  justify-content: center;
+}
+
+.profile-li {
+  padding: 15px;
+  justify-content: space-between;
+}
